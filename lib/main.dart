@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: AppTheme.light(),
       darkTheme: AppTheme.dark(),
+      //Theme color: dark/light
       themeMode: ThemeMode.dark,
       title: 'Chatalk',
       home: const HomeScreen(),
